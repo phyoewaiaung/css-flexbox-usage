@@ -1,144 +1,142 @@
 * {
-
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 h1 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 .navbar {
-    background-color: rgb(22, 30, 37);
-    color: #fff;
-    height: 60px;
+  background-color: rgb(22, 30, 37);
+  color: #fff;
+  height: 60px;
 }
 .navbar .logo {
-    font-size: x-large;
-    font-weight: bold;
+  font-size: x-large;
+  font-weight: bold;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 .navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 .navbar ul {
-    display: flex;
+  display: flex;
 }
 .navbar ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .navbar a:hover {
-    color: lightblue;
+  color: lightblue;
 }
 
 .header {
-    background-color: rgb(22, 30, 37);
-    color: #fff;
-    min-height: 400px;
+  background-color: rgb(22, 30, 37);
+  color: #fff;
+  min-height: 400px;
 }
 .header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.2;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 .header img {
-    max-width: 400px;
+  max-width: 400px;
 }
 .header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 h2 {
-    text-align: center;
-    margin-bottom: 15px;
-
+  text-align: center;
+  margin-bottom: 15px;
 }
 .images .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .image {
-    flex: 1;
-    margin-left: 15px;
+  flex: 1;
+  margin-left: 15px;
 }
-.image:nth-of-type(1){
-    order: 1;
+.image:nth-of-type(1) {
+  order: 1;
 }
 .image:nth-of-type(2) {
-    order: 2;
+  order: 2;
 }
 .image:nth-of-type(3) {
-    order: 3;
+  order: 3;
 }
 .image:nth-of-type(4) {
-    order: 4;
+  order: 4;
 }
 .article {
-    background-color: lightgray;
-    color: #000;
-    padding: 30px;
+  background-color: lightgray;
+  color: #000;
+  padding: 30px;
 }
-.article p{
-    text-align: right;
+.article p {
+  text-align: right;
 }
 .signup {
-    background-color: blue;
-    margin: 50px;
-    padding: 20px;
-    color: #fff;
-    border-radius: 10px;
+  background-color: blue;
+  margin: 50px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
 }
 .signup .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.signup button{
-    width: 100px;
-    height: 30px;
-    margin-left: 30px;
+.signup button {
+  width: 100px;
+  height: 30px;
+  margin-left: 30px;
 }
 footer {
-    background-color:  rgb(22, 30, 37);
-    color: #fff;
-    text-align: center;
+  background-color: rgb(22, 30, 37);
+  color: #fff;
+  text-align: center;
 }
-@media(max-width: 768px) {
-    .header .container {
-        flex-direction: column;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .header p{
-        margin-bottom: 20px;
-    }
-    .images .container {
-        display: block;
-        text-align: center;
-    }
-    .images p{
-        margin-bottom: 20px;
-    }
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header p {
+    margin-bottom: 20px;
+  }
+  .images .container {
+    display: block;
+    text-align: center;
+  }
+  .images p {
+    margin-bottom: 20px;
+  }
 }
